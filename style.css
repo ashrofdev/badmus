@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 100%;
+}
+p {
+    font-size: 1.3rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.text .first {
+    font-size: 1.5rem;
+}
+.text h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.abb {
+    color: black;
+    padding: 5rem;
+    text-align: center;
+}
+.hit {
+    color: black;
+    text-align: center;
+}
+.hit h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes img {
+    0% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
+}
+.top img {
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.roll {
+    animation: img 3s infinite ease-in alternate;
+}
+audio {
+    outline: none;
+}
+footer {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 800px) {
+    header {
+      display: block;
+      text-align: center;
+      background-color: rgb(7, 2, 22);
+      padding: 3rem 0;
+      height: 90vh;
+    }
+    .text {
+        margin: 0;
+    }
+    .text h1 {
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+    .aaa {
+        width: 80%;
+    }
+    header img {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 2rem;
+    }
+    .hit h2 {
+        font-size: 1.4rem;
+        padding: 2rem;
+        margin: 0;
+    }
+    .abb {
+        padding: 3rem 1rem;
+    }
+    audio {
+        margin: 2rem 0;
+    }
+}
