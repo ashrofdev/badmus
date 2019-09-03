@@ -7,5 +7,6 @@ aud.addEventListener('play', ()=>{
 })
 aud.addEventListener('pause', ()=>{
     document.querySelector('.top img').classList.remove('roll')
+    document.querySelector('.o').classList.remove('oo')
     console.log(222222)
 })

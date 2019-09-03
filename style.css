@@ -103,6 +103,7 @@ p {
     width: 7rem;
     height: 7rem;
     margin: 1rem;
+    box-shadow: 1px 1px 1rem rgb(136, 135, 135);
     border-radius: 50%;
 }
 .roll {
