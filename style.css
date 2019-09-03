@@ -162,4 +162,7 @@ footer {
     audio {
         margin: 2rem 0;
     }
+    footer {
+        font-size: .3rem;
+    }
 }
