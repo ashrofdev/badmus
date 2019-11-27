@@ -80,6 +80,7 @@ p {
 .hit {
     color: black;
     text-align: center;
+    margin-bottom: 2rem;
 }
 .hit h2 {
     font-size: 2.5rem;
